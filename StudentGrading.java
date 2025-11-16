@@ -20,12 +20,12 @@ class Student{
         this.subject3 = subject3;
         this.subject4 = subject4;
         this.subject5 = subject5;
-        totalMarks = subject1 + subject2 + subject3 + subject4 + subject4;
+        totalMarks = subject1 + subject2 + subject3 + subject4 + subject5;
         average = totalMarks/5;
     }
 
     void display() {
-        System.out.printf("%-5d     %-15s      %-10.2f      %-10.2f\n", id, name, totalMarks, average, grade);
+        System.out.printf("%-5d  %-18s  %12.2f  %17f  %5c\n", id, name, totalMarks, average, grade);
     }
 }
 
